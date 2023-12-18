@@ -1,0 +1,5 @@
+id,user_id,ts,instance_count,hourly_instance_cost,storage_requirement,monthly_storage_cost,monthly_network_transfer_cost,personnel_setup_cost,monthly_personnel_cost
+1,eager,2019-01-15 21:04:27.095490,1008,0.594,150000.0,0.0236,0.0,50000.0,16666.7
+2,eager,2019-01-15 21:04:27.113505,162,0.653,150000.0,0.05,0.0,50000.0,16666.7
+3,eager,2019-01-15 21:04:41.918236,1008,0.594,150000.0,0.0236,0.0,50000.0,16666.7
+4,eager,2019-01-15 21:04:41.935022,162,0.653,150000.0,0.05,0.0,50000.0,16666.7

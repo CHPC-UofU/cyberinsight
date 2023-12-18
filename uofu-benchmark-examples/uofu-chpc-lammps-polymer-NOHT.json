@@ -1,0 +1,843 @@
+{
+    "data": {
+        "AWS.c5n.18xlarge": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 3.888,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-1node",
+                    "node_count": 1,
+                    "wall_time": 44.22
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 23.08
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 11.88
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 8.98
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-8nodes",
+                    "node_count": 8.0,
+                    "wall_time": 7.54
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-10nodes",
+                    "node_count": 10.0,
+                    "wall_time": 8.81
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "0"
+        },
+        "AZ.hc44rs": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 3.2153,
+                "name": "Attributes",
+                "system_lifetime_years": 1.0,
+                "total_nodes": 1
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "01-node-lammps-polymer-5K-NOHT",
+                    "node_count": 1,
+                    "wall_time": 42.14
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "02-node-lammps-polymer-5K-NOHT",
+                    "node_count": 2.0,
+                    "wall_time": 19.27
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "04-node-lammps-polymer-5K-NOHT",
+                    "node_count": 4.0,
+                    "wall_time": 10.02
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "06-node-lammps-polymer-5K-NOHT",
+                    "node_count": 6.0,
+                    "wall_time": 6.74
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "08-node-lammps-polymer-5K-NOHT",
+                    "node_count": 8.0,
+                    "wall_time": 5.2
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "idle_power": {
+                            "value": 0.0
+                        },
+                        "personnel": {
+                            "value": 0.0
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "({personnel} + {idle_power})"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "hardware": {
+                            "value": 0.0
+                        },
+                        "infrastructure": {
+                            "value": 0.0
+                        },
+                        "network": {
+                            "value": 0.0
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "({hardware} + {infrastructure} + {network})"
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "{upfront_costs} + ({LIFETIME}*{recurring_costs})"
+        },
+        "CHPC-AMD-EPYC-7702P-64core": {
+            "attributes": {
+                "avg_utilization": 0.95,
+                "cost_per_kwh": 0.08,
+                "hourly_cloud_hosting_fee": 0.0,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.001686,
+                    "name": "lammps-polymer-NOHT-1node",
+                    "node_count": 1.0,
+                    "wall_time": 26.98
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.000742,
+                    "name": "lammps-polymer-NOHT-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 13.14
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.000366,
+                    "name": "lammps-polymer-NOHT-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 7.22
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.000267,
+                    "name": "lammps-polymer-NOHT-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 5.42
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.00022,
+                    "name": "lammps-polymer-NOHT-08nodes",
+                    "node_count": 8.0,
+                    "wall_time": 4.48
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.000192,
+                    "name": "lammps-polymer-NOHT-10nodes",
+                    "node_count": 10.0,
+                    "wall_time": 3.84
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "CAM": {
+                            "description": "",
+                            "label": "",
+                            "value": "64.43"
+                        },
+                        "TCOComputeCostCenter": {
+                            "breakdown": {
+                                "computeExpenses": {
+                                    "breakdown": {
+                                        "earningAndBenefits": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "254629.0"
+                                        },
+                                        "software": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "30909.0"
+                                        },
+                                        "supplies": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "2129.0"
+                                        },
+                                        "travel": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17876.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({earningAndBenefits} + {travel} + {supplies} + {software})"
+                                },
+                                "consultingExpenses": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "183854.0"
+                                },
+                                "generalOverhead": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "159878.0"
+                                },
+                                "networkingExpenses": {
+                                    "breakdown": {
+                                        "DDCNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "15087.0"
+                                        },
+                                        "GeneralNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "81090.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({GeneralNetworking} + {DDCNetworking})"
+                                },
+                                "totalNodes": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "1360"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({computeExpenses} + {generalOverhead} + {consultingExpenses} + {networkingExpenses})/{totalNodes}"
+                        },
+                        "power": {
+                            "breakdown": {
+                                "otherPowerCostPerNode": {
+                                    "breakdown": {
+                                        "RU": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "42"
+                                        },
+                                        "racks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "113"
+                                        },
+                                        "totalOtherPower": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "237396.63"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({totalOtherPower} / {racks} / {RU})"
+                                },
+                                "powerConsumedPerNode": {
+                                    "breakdown": {
+                                        "electrictyPrice": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.08"
+                                        },
+                                        "energyUsed": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.1475"
+                                        },
+                                        "powerUsageEffectivenessFactor": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1.3"
+                                        },
+                                        "runTime": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1378.96"
+                                        },
+                                        "secondsPerYear": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "31536000"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({electrictyPrice} * {energyUsed} / {runTime} * {secondsPerYear} * {powerUsageEffectivenessFactor})"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({powerConsumedPerNode} + {otherPowerCostPerNode})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "{TCOComputeCostCenter} + {power} + {CAM}"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "accessories": {
+                            "breakdown": {
+                                "cable": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.25"
+                                },
+                                "pdu": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "81.65"
+                                },
+                                "powerCord": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "12"
+                                },
+                                "tap": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.3"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({pdu} + {tap} + {powerCord} + {cable})"
+                        },
+                        "hardware": {
+                            "description": "",
+                            "label": "",
+                            "value": "5249.25"
+                        },
+                        "networking": {
+                            "breakdown": {
+                                "IBPerNode": {
+                                    "breakdown": {
+                                        "addInSplineCost": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1391.65"
+                                        },
+                                        "supportedNodes": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "32"
+                                        },
+                                        "switch": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17282.30"
+                                        },
+                                        "uplinks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "3413.05"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({switch} + {uplinks} + {addInSplineCost})/{supportedNodes}"
+                                },
+                                "ethernet": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "63.1"
+                                },
+                                "optics": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "20.65"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({IBPerNode} + {ethernet} + {optics})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "{hardware} + {accessories} + {networking}"
+                }
+            },
+            "description": "",
+            "label": "CHPC notchpeak cost per node",
+            "type": "compute",
+            "value": "{upfront_costs} + {LIFETIME}*{recurring_costs}"
+        },
+        "GCP-c2-60": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 1.0,
+                "hourly_cloud_hosting_fee": 3.15378,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-1node",
+                    "node_count": 1.0,
+                    "wall_time": 53.17
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 35.21
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 22.71
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 23.69
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-8nodes",
+                    "node_count": 8.0,
+                    "wall_time": 21.39
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lammps-polymer-NOHT-5000s-10nodes",
+                    "node_count": 10.0,
+                    "wall_time": 20.24
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "1 * ({hardware} + {infrastructure} + {personnel} + {network} + {fees})"
+        },
+        "GCP-n2d-128": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 1.0,
+                "hourly_cloud_hosting_fee": 4.0037,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-1node",
+                    "node_count": 1.0,
+                    "wall_time": 22.54
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 45.77
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 58.23
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 44.37
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-8nodes",
+                    "node_count": 8.0,
+                    "wall_time": 97.75
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "1 * ({hardware} + {infrastructure} + {personnel} + {network} + {fees})"
+        },
+        "GCP-n2d-224": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 1.0,
+                "hourly_cloud_hosting_fee": 6.9978,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-1node",
+                    "node_count": 1.0,
+                    "wall_time": 14.08
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 33.63
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 47.94
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "1 * ({hardware} + {infrastructure} + {personnel} + {network} + {fees})"
+        },
+        "GCP-n2h-64": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 1.0,
+                "hourly_cloud_hosting_fee": 2.3059,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-1node",
+                    "node_count": 1.0,
+                    "wall_time": 54.83
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 33.93
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 22.25
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 21.58
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-8nodes",
+                    "node_count": 8.0,
+                    "wall_time": 17.17
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-10nodes",
+                    "node_count": 10.0,
+                    "wall_time": 20.1
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "1 * ({hardware} + {infrastructure} + {personnel} + {network} + {fees})"
+        },
+        "GCP-n2h-80": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 1.0,
+                "hourly_cloud_hosting_fee": 2.8795,
+                "name": "Attributes",
+                "system_lifetime_years": 7.0,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-1node",
+                    "node_count": 1.0,
+                    "wall_time": 46.5
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-2nodes",
+                    "node_count": 2.0,
+                    "wall_time": 70.69
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-4nodes",
+                    "node_count": 4.0,
+                    "wall_time": 67.68
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-6nodes",
+                    "node_count": 6.0,
+                    "wall_time": 106.45
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-8nodes",
+                    "node_count": 8.0,
+                    "wall_time": 75.41
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "lamps-polymer-NOHT-5000steps-10nodes",
+                    "node_count": 10.0,
+                    "wall_time": 57.65
+                }
+            ],
+            "breakdown": {
+                "fees": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "hardware": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "infrastructure": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "network": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                },
+                "personnel": {
+                    "description": "",
+                    "label": "",
+                    "value": 0.0
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "1 * ({hardware} + {infrastructure} + {personnel} + {network} + {fees})"
+        }
+    }
+}

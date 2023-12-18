@@ -1,0 +1,17 @@
+id,sys_type,question,variable_name,unit
+1,On-Premise,Node Count,node_count,
+2,On-Premise,Cost per Node,cost_per_node,$
+3,On-Premise,Rack Infrastructure Cost,rack_infra_cost,$
+4,On-Premise,Power Infrastructure Cost,power_infra_cost,$
+5,On-Premise,MONTHLY Data Center Cost,monthly_data_center_cost,$
+6,On-Premise,Expected MONTHLY Power,monthly_power,kW/h
+7,On-Premise,Power Cost per kW/h,power_cost,$
+8,On-Premise,Personnel Setup Cost,personnel_setup_cost,$
+9,On-Premise,MONTHLY Personnel Cost,monthly_personnel_cost,$
+10,Cloud,Instance Count,instance_count,
+11,Cloud,HOURLY Instance Cost,hourly_instance_cost,$
+12,Cloud,Storage Requirement,storage_requirement,GB
+13,Cloud,MONTHLY Storage Cost per GB,monthly_storage_cost,$
+14,Cloud,Expected MONTHLY Network Transfer Cost,monthly_network_transfer_cost,$
+15,Cloud,Personnel Setup Cost,personnel_setup_cost,$
+16,Cloud,MONTHLY Personnel Cost,monthly_personnel_cost,$

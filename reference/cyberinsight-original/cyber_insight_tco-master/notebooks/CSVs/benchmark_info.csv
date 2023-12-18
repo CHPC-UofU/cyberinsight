@@ -1,0 +1,7 @@
+id,user_id,ts,measure_name,x_name,y_name,benchmark_date
+1,eager,2019-01-15 21:04:27.069111,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01
+2,eager,2019-01-15 21:04:27.095490,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01
+3,eager,2019-01-15 21:04:27.113505,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01
+4,eager,2019-01-15 21:04:41.900320,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01
+5,eager,2019-01-15 21:04:41.918236,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01
+6,eager,2019-01-15 21:04:41.935022,HPL,# of Nodes,Rmax (TFLOPS),2011-12-01

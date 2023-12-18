@@ -1,0 +1,1122 @@
+{
+    "data": {
+        "AWS-c5n.18xlarge-NOHT": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 3.888,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "02-node-vasp-med-NOHT",
+                    "node_count": 2.0,
+                    "wall_time": 110.9
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "06-node-vasp-med-NOHT",
+                    "node_count": 6.0,
+                    "wall_time": 103.47
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "08-node-vasp-med-NOHT",
+                    "node_count": 8.0,
+                    "wall_time": 86.54
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "10-node-vasp-med-NOHT",
+                    "node_count": 10.0,
+                    "wall_time": 215.83
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "idle_power": {
+                            "value": 0.0
+                        },
+                        "personnel": {
+                            "value": 0.0
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "({personnel} + {idle_power})"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "hardware": {
+                            "value": 0.0
+                        },
+                        "infrastructure": {
+                            "value": 0.0
+                        },
+                        "network": {
+                            "value": 0.0
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "({hardware} + {infrastructure} + {network})"
+                }
+            },
+            "description": "",
+            "type": "compute",
+            "value": "{upfront_costs} + ({LIFETIME}*{recurring_costs})"
+        },
+        "AZ-hc44rs": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 3.2153,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "02-node-vasp-med-NOHT",
+                    "node_count": 2.0,
+                    "wall_time": 173.73
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "04-node-vasp-med-NOHT",
+                    "node_count": 4.0,
+                    "wall_time": 145.79
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "CAM": {
+                            "description": "",
+                            "label": "",
+                            "value": "64.43"
+                        },
+                        "TCOComputeCostCenter": {
+                            "breakdown": {
+                                "computeExpenses": {
+                                    "breakdown": {
+                                        "earningAndBenefits": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "254629.0"
+                                        },
+                                        "software": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "30909.0"
+                                        },
+                                        "supplies": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "2129.0"
+                                        },
+                                        "travel": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17876.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({earningAndBenefits} + {travel} + {supplies} + {software})"
+                                },
+                                "consultingExpenses": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "183854.0"
+                                },
+                                "generalOverhead": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "159878.0"
+                                },
+                                "networkingExpenses": {
+                                    "breakdown": {
+                                        "DDCNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "15087.0"
+                                        },
+                                        "GeneralNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "81090.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({GeneralNetworking} + {DDCNetworking})"
+                                },
+                                "totalNodes": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "1360"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({computeExpenses} + {generalOverhead} + {consultingExpenses} + {networkingExpenses})/{totalNodes}"
+                        },
+                        "power": {
+                            "breakdown": {
+                                "otherPowerCostPerNode": {
+                                    "breakdown": {
+                                        "RU": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "42"
+                                        },
+                                        "racks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "113"
+                                        },
+                                        "totalOtherPower": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "237396.63"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({totalOtherPower} / {racks} / {RU})"
+                                },
+                                "powerConsumedPerNode": {
+                                    "breakdown": {
+                                        "electrictyPrice": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.08"
+                                        },
+                                        "energyUsed": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.1475"
+                                        },
+                                        "powerUsageEffectivenessFactor": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1.3"
+                                        },
+                                        "runTime": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1378.96"
+                                        },
+                                        "secondsPerYear": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "31536000"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({electrictyPrice} * {energyUsed} / {runTime} * {secondsPerYear} * {powerUsageEffectivenessFactor})"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({powerConsumedPerNode} + {otherPowerCostPerNode})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "accessories": {
+                            "breakdown": {
+                                "cable": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.25"
+                                },
+                                "pdu": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "81.65"
+                                },
+                                "powerCord": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "12"
+                                },
+                                "tap": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.3"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({pdu} + {tap} + {powerCord} + {cable})"
+                        },
+                        "hardware": {
+                            "description": "",
+                            "label": "",
+                            "value": "5249.25"
+                        },
+                        "networking": {
+                            "breakdown": {
+                                "IBPerNode": {
+                                    "breakdown": {
+                                        "addInSplineCost": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1391.65"
+                                        },
+                                        "supportedNodes": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "32"
+                                        },
+                                        "switch": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17282.30"
+                                        },
+                                        "uplinks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "3413.05"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({switch} + {uplinks} + {addInSplineCost})/{supportedNodes}"
+                                },
+                                "ethernet": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "63.1"
+                                },
+                                "optics": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "20.65"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({IBPerNode} + {ethernet} + {optics})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                }
+            },
+            "description": "",
+            "label": "CHPC notchpeak cost per node",
+            "type": "compute",
+            "value": "{upfront_costs} + {LIFETIME}*{recurring_costs}"
+        },
+        "CHPC-AMD-EPYC-7702P-64core": {
+            "attributes": {
+                "avg_utilization": 0.95,
+                "cost_per_kwh": 0.08,
+                "hourly_cloud_hosting_fee": 0.0,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.013079,
+                    "name": "01-node-vasp-med-NOHT",
+                    "node_count": 1.0,
+                    "wall_time": 176.01
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.006407,
+                    "name": "02-node-vasp-med-NOHT",
+                    "node_count": 2.0,
+                    "wall_time": 98.6
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.004316,
+                    "name": "04-node-vasp-med-NOHT",
+                    "node_count": 4.0,
+                    "wall_time": 69.94
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.004566,
+                    "name": "06-node-vasp-med-NOHT",
+                    "node_count": 6.0,
+                    "wall_time": 75.85
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.004324,
+                    "name": "08-node-vasp-med-NOHT",
+                    "node_count": 8.0,
+                    "wall_time": 75.09
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.005217,
+                    "name": "10-node-vasp-med-NOHT",
+                    "node_count": 10.0,
+                    "wall_time": 89.55
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "CAM": {
+                            "description": "",
+                            "label": "",
+                            "value": "64.43"
+                        },
+                        "TCOComputeCostCenter": {
+                            "breakdown": {
+                                "computeExpenses": {
+                                    "breakdown": {
+                                        "earningAndBenefits": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "254629.0"
+                                        },
+                                        "software": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "30909.0"
+                                        },
+                                        "supplies": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "2129.0"
+                                        },
+                                        "travel": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17876.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({earningAndBenefits} + {travel} + {supplies} + {software})"
+                                },
+                                "consultingExpenses": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "183854.0"
+                                },
+                                "generalOverhead": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "159878.0"
+                                },
+                                "networkingExpenses": {
+                                    "breakdown": {
+                                        "DDCNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "15087.0"
+                                        },
+                                        "GeneralNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "81090.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({GeneralNetworking} + {DDCNetworking})"
+                                },
+                                "totalNodes": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "1360"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({computeExpenses} + {generalOverhead} + {consultingExpenses} + {networkingExpenses})/{totalNodes}"
+                        },
+                        "power": {
+                            "breakdown": {
+                                "otherPowerCostPerNode": {
+                                    "breakdown": {
+                                        "RU": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "42"
+                                        },
+                                        "racks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "113"
+                                        },
+                                        "totalOtherPower": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "237396.63"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({totalOtherPower} / {racks} / {RU})"
+                                },
+                                "powerConsumedPerNode": {
+                                    "breakdown": {
+                                        "electrictyPrice": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.08"
+                                        },
+                                        "energyUsed": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.1475"
+                                        },
+                                        "powerUsageEffectivenessFactor": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1.3"
+                                        },
+                                        "runTime": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1378.96"
+                                        },
+                                        "secondsPerYear": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "31536000"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({electrictyPrice} * {energyUsed} / {runTime} * {secondsPerYear} * {powerUsageEffectivenessFactor})"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({powerConsumedPerNode} + {otherPowerCostPerNode})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "{TCOComputeCostCenter} + {power} + {CAM}"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "accessories": {
+                            "breakdown": {
+                                "cable": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.25"
+                                },
+                                "pdu": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "81.65"
+                                },
+                                "powerCord": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "12"
+                                },
+                                "tap": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.3"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({pdu} + {tap} + {powerCord} + {cable})"
+                        },
+                        "hardware": {
+                            "description": "",
+                            "label": "",
+                            "value": "5249.25"
+                        },
+                        "networking": {
+                            "breakdown": {
+                                "IBPerNode": {
+                                    "breakdown": {
+                                        "addInSplineCost": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1391.65"
+                                        },
+                                        "supportedNodes": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "32"
+                                        },
+                                        "switch": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17282.30"
+                                        },
+                                        "uplinks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "3413.05"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({switch} + {uplinks} + {addInSplineCost})/{supportedNodes}"
+                                },
+                                "ethernet": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "63.1"
+                                },
+                                "optics": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "20.65"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({IBPerNode} + {ethernet} + {optics})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "{hardware} + {accessories} + {networking}"
+                }
+            },
+            "description": "",
+            "label": "CHPC notchpeak cost per node",
+            "type": "compute",
+            "value": "{upfront_costs} + {LIFETIME}*{recurring_costs}"
+        },
+        "GCP-c2-60": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 3.15377,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "04-node-vasp-med-NOHT",
+                    "node_count": 4.0,
+                    "wall_time": 156.8
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "CAM": {
+                            "description": "",
+                            "label": "",
+                            "value": "0"
+                        },
+                        "TCOComputeCostCenter": {
+                            "breakdown": {
+                                "computeExpenses": {
+                                    "breakdown": {
+                                        "earningAndBenefits": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "254629.0"
+                                        },
+                                        "software": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "30909.0"
+                                        },
+                                        "supplies": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "2129.0"
+                                        },
+                                        "travel": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17876.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({earningAndBenefits} + {travel} + {supplies} + {software})"
+                                },
+                                "consultingExpenses": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "183854.0"
+                                },
+                                "generalOverhead": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "159878.0"
+                                },
+                                "networkingExpenses": {
+                                    "breakdown": {
+                                        "DDCNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "15087.0"
+                                        },
+                                        "GeneralNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "81090.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({GeneralNetworking} + {DDCNetworking})"
+                                },
+                                "totalNodes": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "1360"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "0"
+                        },
+                        "power": {
+                            "breakdown": {
+                                "otherPowerCostPerNode": {
+                                    "breakdown": {
+                                        "RU": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "42"
+                                        },
+                                        "racks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "113"
+                                        },
+                                        "totalOtherPower": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "237396.63"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({totalOtherPower} / {racks} / {RU})"
+                                },
+                                "powerConsumedPerNode": {
+                                    "breakdown": {
+                                        "electrictyPrice": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.08"
+                                        },
+                                        "energyUsed": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.1475"
+                                        },
+                                        "powerUsageEffectivenessFactor": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1.3"
+                                        },
+                                        "runTime": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1378.96"
+                                        },
+                                        "secondsPerYear": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "31536000"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({electrictyPrice} * {energyUsed} / {runTime} * {secondsPerYear} * {powerUsageEffectivenessFactor})"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "0"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "accessories": {
+                            "breakdown": {
+                                "cable": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.25"
+                                },
+                                "pdu": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "81.65"
+                                },
+                                "powerCord": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "12"
+                                },
+                                "tap": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.3"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({pdu} + {tap} + {powerCord} + {cable})"
+                        },
+                        "hardware": {
+                            "description": "",
+                            "label": "",
+                            "value": "5249.25"
+                        },
+                        "networking": {
+                            "breakdown": {
+                                "IBPerNode": {
+                                    "breakdown": {
+                                        "addInSplineCost": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1391.65"
+                                        },
+                                        "supportedNodes": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "32"
+                                        },
+                                        "switch": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17282.30"
+                                        },
+                                        "uplinks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "3413.05"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({switch} + {uplinks} + {addInSplineCost})/{supportedNodes}"
+                                },
+                                "ethernet": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "63.1"
+                                },
+                                "optics": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "20.65"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({IBPerNode} + {ethernet} + {optics})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                }
+            },
+            "description": "",
+            "label": "CHPC notchpeak cost per node",
+            "type": "compute",
+            "value": "0"
+        },
+        "GCP-n2h-64": {
+            "attributes": {
+                "avg_utilization": 1.0,
+                "cost_per_kwh": 0.0,
+                "hourly_cloud_hosting_fee": 2.3059,
+                "name": "Attributes",
+                "system_lifetime_years": 5,
+                "total_nodes": 1.0
+            },
+            "benchmarks": [
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "02-node-vasp-med-NOHT",
+                    "node_count": 2.0,
+                    "wall_time": 223.66
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "04-node-vasp-med-NOHT",
+                    "node_count": 4.0,
+                    "wall_time": 192.93
+                },
+                {
+                    "description": "",
+                    "kwh_used": 0.0,
+                    "name": "06-node-vasp-med-NOHT",
+                    "node_count": 6.0,
+                    "wall_time": 208.57
+                }
+            ],
+            "breakdown": {
+                "recurring_costs": {
+                    "breakdown": {
+                        "CAM": {
+                            "description": "",
+                            "label": "",
+                            "value": "64.43"
+                        },
+                        "TCOComputeCostCenter": {
+                            "breakdown": {
+                                "computeExpenses": {
+                                    "breakdown": {
+                                        "earningAndBenefits": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "254629.0"
+                                        },
+                                        "software": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "30909.0"
+                                        },
+                                        "supplies": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "2129.0"
+                                        },
+                                        "travel": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17876.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({earningAndBenefits} + {travel} + {supplies} + {software})"
+                                },
+                                "consultingExpenses": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "183854.0"
+                                },
+                                "generalOverhead": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "159878.0"
+                                },
+                                "networkingExpenses": {
+                                    "breakdown": {
+                                        "DDCNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "15087.0"
+                                        },
+                                        "GeneralNetworking": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "81090.0"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({GeneralNetworking} + {DDCNetworking})"
+                                },
+                                "totalNodes": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "1360"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({computeExpenses} + {generalOverhead} + {consultingExpenses} + {networkingExpenses})/{totalNodes}"
+                        },
+                        "power": {
+                            "breakdown": {
+                                "otherPowerCostPerNode": {
+                                    "breakdown": {
+                                        "RU": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "42"
+                                        },
+                                        "racks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "113"
+                                        },
+                                        "totalOtherPower": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "237396.63"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({totalOtherPower} / {racks} / {RU})"
+                                },
+                                "powerConsumedPerNode": {
+                                    "breakdown": {
+                                        "electrictyPrice": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.08"
+                                        },
+                                        "energyUsed": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "0.1475"
+                                        },
+                                        "powerUsageEffectivenessFactor": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1.3"
+                                        },
+                                        "runTime": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1378.96"
+                                        },
+                                        "secondsPerYear": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "31536000"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({electrictyPrice} * {energyUsed} / {runTime} * {secondsPerYear} * {powerUsageEffectivenessFactor})"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({powerConsumedPerNode} + {otherPowerCostPerNode})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                },
+                "upfront_costs": {
+                    "breakdown": {
+                        "accessories": {
+                            "breakdown": {
+                                "cable": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.25"
+                                },
+                                "pdu": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "81.65"
+                                },
+                                "powerCord": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "12"
+                                },
+                                "tap": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "54.3"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({pdu} + {tap} + {powerCord} + {cable})"
+                        },
+                        "hardware": {
+                            "description": "",
+                            "label": "",
+                            "value": "5249.25"
+                        },
+                        "networking": {
+                            "breakdown": {
+                                "IBPerNode": {
+                                    "breakdown": {
+                                        "addInSplineCost": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "1391.65"
+                                        },
+                                        "supportedNodes": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "32"
+                                        },
+                                        "switch": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "17282.30"
+                                        },
+                                        "uplinks": {
+                                            "description": "",
+                                            "label": "",
+                                            "value": "3413.05"
+                                        }
+                                    },
+                                    "description": "",
+                                    "label": "",
+                                    "value": "({switch} + {uplinks} + {addInSplineCost})/{supportedNodes}"
+                                },
+                                "ethernet": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "63.1"
+                                },
+                                "optics": {
+                                    "description": "",
+                                    "label": "",
+                                    "value": "20.65"
+                                }
+                            },
+                            "description": "",
+                            "label": "",
+                            "value": "({IBPerNode} + {ethernet} + {optics})"
+                        }
+                    },
+                    "description": "",
+                    "label": "",
+                    "value": "0"
+                }
+            },
+            "description": "",
+            "label": "CHPC notchpeak cost per node",
+            "type": "compute",
+            "value": "0"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+id,user_id,ts,org_name,sys_name,sys_desc,sys_type,deploy_date,is_public
+1,eager,2019-01-15 21:04:27.069111,UIowa,Neon,Local HPC Cluster at University of Iowa,On-Premise,2012-01-01,1
+2,eager,2019-01-15 21:04:27.095490,UIowa,Azure,Microsoft Azure Cloud Cluster at University of Iowa,Cloud,2012-01-01,1
+3,eager,2019-01-15 21:04:27.113505,UIowa,AWS,AWS EC2 Cloud Cluster at University of Iowa,Cloud,2012-01-01,1
+4,eager,2019-01-15 21:04:41.900320,UIowa,Neon,Local HPC Cluster at University of Iowa,On-Premise,2012-01-01,0
+5,eager,2019-01-15 21:04:41.918236,UIowa,Azure,Microsoft Azure Cloud Cluster at University of Iowa,Cloud,2012-01-01,0
+6,eager,2019-01-15 21:04:41.935022,UIowa,AWS,AWS EC2 Cloud Cluster at University of Iowa,Cloud,2012-01-01,0

@@ -1,0 +1,3 @@
+id,user_id,ts,node_count,cost_per_node,rack_infra_cost,power_infra_cost,monthly_data_center_cost,monthly_power,power_cost,personnel_setup_cost,monthly_personnel_cost
+1,eager,2019-01-15 21:04:27.069111,530,5500.0,503000.0,50000.0,4166.67,146000.0,0.08,150000.0,20833.3
+2,eager,2019-01-15 21:04:41.900320,530,5500.0,503000.0,50000.0,4166.67,146000.0,0.08,150000.0,20833.3
